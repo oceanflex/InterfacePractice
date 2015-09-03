@@ -10,5 +10,5 @@ package abstractionpractice;
  * @author Zachary
  */
 public interface GolfEquipment extends SportsGear{
-    
+    public String getType();
 }
