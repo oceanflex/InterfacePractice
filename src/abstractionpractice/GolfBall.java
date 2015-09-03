@@ -10,11 +10,14 @@ package abstractionpractice;
  * @author Zachary
  */
 public class GolfBall implements GolfEquipment{
-    private String Manufacturer;
+    private String manufacturer;
+    private int SKU;
+    private String game;
+    private String type;
     
     @Override
     public String getManufacturer(){
-        
+    return manufacturer;    
     }
     @Override
     public void reorder(){
@@ -22,14 +25,14 @@ public class GolfBall implements GolfEquipment{
     }
     @Override
     public int getSKU(){
-        
+    return SKU;
     }
     @Override
     public String getGame(){
-        
+    return game;
     }
     @Override
     public String getType(){
-        
+        return type;
     }
 }
