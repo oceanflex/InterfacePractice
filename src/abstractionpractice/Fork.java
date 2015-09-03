@@ -10,5 +10,11 @@ package abstractionpractice;
  * @author Zachary
  */
 public abstract class Fork implements EatingUtencil{
-    
+    private boolean full;
+    public void pickupFood(){
+        full = true;
+    }
+    public void eatFood(){
+        full = false;
+    }
 }
