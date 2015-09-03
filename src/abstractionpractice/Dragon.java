@@ -10,5 +10,10 @@ package abstractionpractice;
  * @author Zachary
  */
 public class Dragon implements WingedImmortal {
+
+    @Override
+    public void fly() {
+        
+    }
     
 }

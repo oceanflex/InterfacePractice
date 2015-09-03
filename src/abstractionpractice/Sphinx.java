@@ -9,6 +9,9 @@ package abstractionpractice;
  *
  * @author Zachary
  */
-public interface WingedImmortal extends MagicalCreature{
-    public void fly();
+public class Sphinx implements WingedImmortal{
+    @Override
+    public void fly() {
+        
+    }
 }
