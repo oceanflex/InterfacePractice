@@ -9,6 +9,6 @@ package abstractionpractice;
  *
  * @author Zachary
  */
-public interface SportsGear extends Product {
-    public String getGame();
+public interface GolfEquipment extends SportsGear{
+    
 }
